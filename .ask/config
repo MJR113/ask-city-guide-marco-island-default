@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.f926cd26-c377-4030-9275-808edbf09952",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-marco-island-city-guide-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "d9b5a375bfd1baca685e2625d6e5bd1b"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "84e06fb291210224c187d357a4487a41"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:189503672662:function:ask-marco-island-city-guide-default",
+            "functionName": "arn:aws:lambda:us-east-1:189503672662:function:ask-marco-island-city-guide-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "1349c389-a7e3-421a-baf0-fee52fe6e1fb"
+          }
+        ]
+      }
+    }
+  }
+}
